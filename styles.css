@@ -37,6 +37,18 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.image-gallery .gallery-item .overlay-text {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.image-gallery .gallery-item:hover .overlay-text {
+  opacity: 1;
+}
+
+
 .image-gallery .gallery-item:hover .overlay-text {
   background: rgba(0, 0, 0, 0.45);
 }
+
