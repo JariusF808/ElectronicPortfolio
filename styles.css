@@ -67,19 +67,27 @@ main {
 }
 
 .image-box {
-  width: 220px;
+  width: 240px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   text-align: center;
 }
 
 .image-box img {
   width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
+  height: 180px;
+  object-fit: contain;
+  background: #f9f9f9;
+  display: block;
 }
 
 .caption {
-  margin-top: 8px;
+  padding: 10px;
   font-size: 14px;
+  font-weight: bold;
+  color: #000;
 }
 
 /* ===== WORK-BASED LEARNING ===== */
@@ -115,3 +123,4 @@ main {
   background: white;
   color: #000;
 }
+
