@@ -2,6 +2,7 @@
   position: relative;
   width: 220px;
   max-width: 220px;
+  flex: 0 0 auto;
   border-radius: 12px;
   overflow: hidden;
   background: white;
@@ -30,25 +31,16 @@
   font-size: 14px;
   line-height: 1.2;
   background: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, background 0.2s ease;
 }
 
 .image-gallery .gallery-item:hover {
   transform: translateY(-3px);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.image-gallery .gallery-item .overlay-text {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
 }
 
 .image-gallery .gallery-item:hover .overlay-text {
   opacity: 1;
-}
-
-
-.image-gallery .gallery-item:hover .overlay-text {
   background: rgba(0, 0, 0, 0.45);
 }
-
