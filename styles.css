@@ -44,3 +44,23 @@
   opacity: 1;
   background: rgba(0, 0, 0, 0.45);
 }
+
+
+
+
+
+.image-gallery {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-gallery .gallery-item {
+  flex: 0 0 220px;
+  max-width: 220px;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 100%;
+}
+
