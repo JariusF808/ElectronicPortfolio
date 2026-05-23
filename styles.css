@@ -124,3 +124,18 @@ main {
   color: #000;
 }
 
+.link-box {
+  padding: 12px;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.link-box a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.link-box a:hover {
+  text-decoration: underline;
+}
